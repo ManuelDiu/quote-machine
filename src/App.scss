@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+.App {
+  text-align: center;
+  #quote-box{
+    padding: 25px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: black;
+    width: 40%;
+    #author{
+      text-align: end;
+      font-weight: 400;
+    }
+    .buttons{
+      display: flex;
+      justify-content: space-between;
+      min-height: 40px;
+      #tweet-quote{
+        display: flex;
+        padding: 10px;
+        color: white;
+        border-radius: 5px;
+        justify-content: center;
+      }
+      #new-quote{
+        font-size: 16px;
+        font-family: sans-serif;
+        float: right;
+        color: white;
+        border-radius: 5px;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .fingerPrint{
+    font-size: 15px;
+    color: white;
+  }
+}
+
+
